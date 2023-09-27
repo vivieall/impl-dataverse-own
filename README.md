@@ -11,7 +11,7 @@
 * [7. Hacker edition](#7-hacker-edition)
 * [8. Objetivos de aprendizaje](#8-objetivos-de-aprendizaje)
 * [9. Pistas, tips y lecturas complementarias](#9-pistas-tips-y-lecturas-complementarias)
-* [10. Consideraciones para pedir tu Project Feedback](#10-consideraciones-para-pedir-tu-project-feedback)
+* [10. Capturas de pantalla](#10-capturas-de-pantalla)
 
 ***
 
@@ -206,7 +206,7 @@ como toda la configuración de dependencias:
 ├── README.md
 ├── package.json
 ├── src
-|  ├── data 
+|  ├── data
 |  |  └── dataset.js (La que hayas generado con la IA)
 |  ├── dataFunctions.js
 |  ├── view.js
@@ -354,7 +354,7 @@ npm run test:oas // Esto es para correr todos los tests de OAs
 
   - [ ] La aplicación usa [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
     para buscar los elementos del DOM
-  
+
 * **Manejo de eventos del DOM (listeners, propagación, delegación)**
 
   - [ ] `addEventListener` con callback que tiene parámetro de `event`,
@@ -940,33 +940,19 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
   Aceptación_ y nosotros sí lo haremos. Más detalles en la guía.
 * [Cómo dividir H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
 
-## 10. Consideraciones para pedir tu Project Feedback
+## 10. Capturas de pantalla
 
-Antes de agendar tu Project Feedback con un coach, asegúrate que tu proyecto:
+### Visualización del proyecto desplegado
 
-* [ ] Cumple con todos los criterios mínimos de aceptación al ejecutar `npm run test:oas`
-* [ ] Cumple con todas las pruebas _end to end_ al ejecutar `npm run test:e2e`
-* [ ] Cumple con todas las pruebas unitarias al ejecutar `npm run test` y
-  que tienen una cobertura del 70% de _statements_ (_sentencias_),
-  _functions_ (_funciones_), _lines_ (_líneas_), y _branches_
-* [ ] Esta libre de _errores_ de `eslint` al ejecutar `npm run pretest`
-* [ ] Está subido a GitHub y desplegado en GitHub Pages
-* [ ] Captura de pantalla del prompt utilizado para generar los datos.
-* Tiene un `README.md` con la siguente:
-  - [ ] _Definición del producto_ clara e informativa
-  - [ ] Historias de usuario
-  - [ ] Un _Diseño de la Interfaz de Usuaria_ (prototipo de alta fidelidad)
-  - [ ] El listado de problemas que detectaste a través de tests
-    de usabilidad en el `README.md`
-* Tiene un UI que cumple las funcionalidades:
-  - [ ] Muestra lista con datos y/o indicadores
-  - [ ] Permite ordenar data por uno o más campos (asc y desc)
-  - [ ] Permite filtrar data con base en una condición
-  - [ ] Permite limpiar los filtros con un botón
-  - [ ] Es _responsive_
 
-Recuerda que debes hacer una autoevaluación de _objetivos de aprendizaje_ y
-_life skills_ desde tu dashboard de estudiante.
+### Tests de OA's completado
 
-Si no has completado todo lo anterior, no consideramos que estás lista para
-tu sesión de Project Feedback.
+![Tests de OA's](https://ibb.co/bNvph91)
+
+### Tests E2E completado
+
+![Tests E2E](https://ibb.co/HPYsQnf)
+
+### Tests unitarios realizados
+
+![Tests Unitarios](https://ibb.co/zXMx3BV)
