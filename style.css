@@ -90,7 +90,7 @@ dt, dd {
   flex-direction: column;
   align-items: center;
   margin: 12px;
-  height: 420px;
+  height: 480px;
   width: calc(20% - 24px);
 }
 
@@ -143,6 +143,7 @@ dt, dd {
 
   .scientist-card {
     width: calc(33.33% - 24px);
+    padding-bottom: 2rem;
   }
 }
 
