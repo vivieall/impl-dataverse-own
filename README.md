@@ -947,12 +947,12 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 ### Tests de OA's completado
 
-![Tests de OA's](https://ibb.co/bNvph91)
+![Tests de OA's](https://ibb.co/bNvph91/tests-oas.png)
 
 ### Tests E2E completado
 
-![Tests E2E](https://ibb.co/HPYsQnf)
+![Tests E2E](https://ibb.co/HPYsQnf/tests-e2e.png)
 
 ### Tests unitarios realizados
 
-![Tests Unitarios](https://ibb.co/zXMx3BV)
+![Tests Unitarios](https://i.ibb.co/Cbc8jYK/tests-jest.png)
