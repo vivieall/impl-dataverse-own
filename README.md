@@ -944,7 +944,7 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 ### Visualización del proyecto desplegado
 
-
+![Vizualización Web](https://i.ibb.co/xLm9279/cap.png)
 ### Tests de OA's completado
 
 ![Tests de OA's](https://i.ibb.co/44SByrW/tests-oas.png)
