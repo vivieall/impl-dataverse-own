@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dataverse Impl</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>👩‍🔬 Mujeres en la Ciencia: Pioneras ✨</h1>
+    </header>
+
+    <main>
+        <h2>📌 ¡Conoce un poco más sobre ellas! 🔍</h2>
+        <section id="controls">
+
+          <label for="filterByField">Filtrar por área:</label>
+          <select data-testid="select-filter" name="mainField" id="filterByField">
+              <option value="">Todos los campos</option>
+              <option value="Ciencia de la Computación">Ciencia de la Computación</option>
+              <option value="Matemáticas">Matemáticas</option>
+              <option value="Matemáticas, Filosofía">Filosofía</option>
+          </select>
+
+          <label for="sortByOrder">Ordenar por:</label>
+          <select data-testid="select-sort" name="name" id="sortByOrder">
+              <option value="asc">Ordenar por nombre A-Z</option>
+              <option value="desc">Ordenar por nombre Z-A</option>
+          </select>
+
+          <button id="clearFilters" data-testid="button-clear">Limpiar Filtros</button>
+      </section>
+
+      <p id="stats">|| Total de personajes mostrados: <span id="count">0</span> ||</p>
+
+      <div id="root"></div>
+
+    </main>
+
+    <footer id="footer"></footer>
+
+    <script src="main.js" type="module"></script>
+</body>
+</html>

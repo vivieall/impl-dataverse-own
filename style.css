@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #670b45;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #670b45;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+
+select {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+dt, dd {
+  text-align: center;
+}
+
+#controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 5rem;
+}
+
+#stats {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.scientist-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgb(18 12 12 / 81%);
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 12px;
+  height: 420px;
+  width: calc(20% - 24px);
+}
+
+.scientist-card img {
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+
+.scientist-card dl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scientist-card dt,
+.scientist-card dd {
+  text-align: center;
+  margin: 2px 0;
+}
+
+.scientist-card dt {
+  font-weight: bold;
+}
+
+
+.scientist-card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.cointainer-cards {
+  display: contents;
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  #controls {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #controls select:nth-child(2) {
+    margin-top: 1rem;
+  }
+
+  .scientist-card {
+    width: calc(33.33% - 24px);
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .scientist-card {
+    width: 100%;
+  }
+}
